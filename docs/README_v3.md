@@ -1,23 +1,23 @@
 # Coinbase Wallet SDK v3.x.x
+## [Playground]  (https://coinbase.github.io/coinbase-wallet-sdk/)
+**[Developer docs]**(https://docs.cloud.coinbase.com/wallet-sdk/docs)
 
-- [Playground](https://coinbase.github.io/coinbase-wallet-sdk/)
-- [Developer docs](https://docs.cloud.coinbase.com/wallet-sdk/docs)
+The **Coinbase Wallet SDK** (formerly **WalletLink**) enables developers to connect their dApps to **Coinbase Wallet** on both **mobile web** (iOS and Android) and **desktop** platforms.
 
-Coinbase Wallet SDK (formerly WalletLink) lets developers connect their dapps to Coinbase Wallet
-on both mobile web (for iOS and Android) and desktop:
+- **Mobile**: Users can connect to your mobile web dApp via a deep link to the dApp browser in the **Coinbase Wallet mobile app**.  
+- **Desktop**: Users can connect to your desktop app using a **QR code** scanned in the Coinbase Wallet mobile app, or by using the **Coinbase Wallet Chrome Extension**.
 
-- **Mobile**: Users can connect to your mobile web dapp through a deeplink to the dapp browser in [Coinbase Wallet Mobile App](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250).
+The Wallet SDK is **open-source**, with **minimal dependencies** to maximize security and reduce code bloat. Simply drop a few lines of code into your dApp, and the SDK handles the rest.
 
-- **Desktop**: Users can connect to your desktop app with a QR code in the [Coinbase Wallet Mobile App](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250) or with the [Coinbase Wallet Chrome Extension](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250).
+---
 
-Wallet SDK is open-source and uses minimal dependencies for maximum security and no code bloat. Simply drop a few lines of code into your dapp and Wallet SDK takes care of the rest.
+## Getting Started
 
-## Getting started
+This repository uses a **Yarn workspace**. To get started, run:
 
-This repo uses a yarn workspace. To get started, run:
-
-```shell
+```bash
 yarn install
+
 
 # To start the development server run the following command. This starts a nextjs app on port 3001. Any changes in the SDK become available through the app.
 yarn dev
